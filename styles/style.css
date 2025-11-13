@@ -14,3 +14,85 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
 }
+
+.header-block{
+  width:  clamp(375px, calc(50vw - 20px), 1000px);
+  margin-inline: auto;
+  margin-top:100px;
+  height: 368px;
+  margin-bottom:100px;
+  border: 1px solid;
+}
+
+.header-title{
+  padding-top: 126px;
+  padding-bottom: 12px;
+  justify-self: center;
+  font-size: 65px;
+}
+
+.header-text{
+  justify-self: center;
+  font-size: 23px;
+}
+.card{
+  border: 1px solid;
+  width:  clamp(375px, calc(50vw - 20px), 1000px);
+  margin-bottom:53px;
+  margin-inline: auto;
+}
+
+.title-bar{
+  border: 1px solid;
+  height:33px;
+}
+.image-block{
+  width: 100%;
+}
+
+.image{
+  border: 1px solid;
+  width: 100%;
+}
+
+.card__text-block{
+  padding-top:23px;
+}
+.card-text{
+  padding-bottom:26px;
+  padding-left:25px;
+  font-size: 18px;
+}
+
+.card__button-block{
+  width: 169px;
+  margin-left: auto;
+  margin-right: 39px;
+  display: flex;
+  padding-bottom:25px;
+}
+
+.card__like-button{
+  width: 130px;
+  background-color: transparent;
+  height:38px;
+}
+
+.card__icon-button{
+  border: none;
+  background-color: transparent;
+  height:38px;
+}
+.button__text{
+  align-self:center;
+}
+
+
+.footer{
+  width: 335px;
+  margin-inline: auto;
+}
+.save-button{
+  height: 55px;
+  width: 100%;
+}
