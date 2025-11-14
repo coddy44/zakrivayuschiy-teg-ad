@@ -50,6 +50,12 @@
   border: 1px solid;
   height:33px;
 }
+
+.title{
+  padding-top:5px;
+  padding-left:10px;
+  font-size: 18px;
+}
 .image-block {
   width: 100%;
 }
@@ -91,6 +97,7 @@
 .button__text {
   font-family: var(--accent-font, 'Courier New', monospace);
   align-self:center;
+  font-size: 14px;
 }
 
 
@@ -101,4 +108,33 @@
 .save-button {
   height: 55px;
   width: 100%;
+  background-color: transparent;
+  font-family: var(--accent-font, Arial, sans-serif);
+  font-size: 14px;
+}
+
+.dialogue-window{
+  height: 191px;
+  width: 353px;
+}
+.dialogue__content-block {
+  margin-top: 20px;
+  display:flex;
+  height: 64px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.dialogue-title{
+  margin-left: -15px;
+  line-height: 150%;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: var(--accent-font, 'Courier New', monospace);
+  width: 234px;
+}
+
+.dialogue-button{
+  height: 38px;
 }
