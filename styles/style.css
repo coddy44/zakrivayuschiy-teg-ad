@@ -66,6 +66,34 @@
   width: 100%;
 }
 
+.image2 {
+    filter: brightness(130%);
+} 
+
+.image3 {
+    filter: contrast(90%);
+}
+
+.image4 {
+    filter: blur(1rem);
+} 
+
+.image5 {
+    filter: opacity(0.8);
+} 
+
+.image6 {
+    filter: grayscale(0.8);
+} 
+
+.image7 {
+    filter: saturate(158%);
+} 
+
+.image8 {
+    filter: hue-rotate(-90deg);
+} 
+
 .card__text-block {
   padding-top:23px;
 }
@@ -115,11 +143,11 @@
 }
 
 
-.dialog-window {
+.dialogue-window {
   height: 191px;
   width: 353px;
 }
-.dialog__content-block {
+.dialogue__content-block {
   margin-top: 20px;
   display:flex;
   height: 64px;
@@ -127,7 +155,7 @@
   margin-bottom: 20px;
 }
 
-.dialog-title {
+.dialogue-title {
   margin-left: -15px;
   line-height: 150%;
   font-size: 14px;
@@ -137,7 +165,7 @@
   width: 234px;
 }
 
-.dialog-button {
+.dialogue-button {
   height: 38px;
 }
 
