@@ -66,6 +66,10 @@
   width: 100%;
 }
 
+.image1 {
+    filter: sepia(80%);
+} 
+
 .image2 {
     filter: brightness(130%);
 } 
