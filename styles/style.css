@@ -17,7 +17,7 @@
 }
 
 .header-block {
-  font-family: var(--accent-font, 'Courier New', monospace);
+  font-family: var(--accent-font, Arial, monospace);
   width:  clamp(375px, calc(50vw - 20px), 1000px);
   margin-inline: auto;
   margin-top:100px;
@@ -57,6 +57,7 @@
   font-size: 18px;
 }
 .image-block {
+  position: relative;
   width: 100%;
 }
 
@@ -95,7 +96,7 @@
   height:38px;
 }
 .button__text {
-  font-family: var(--accent-font, 'Courier New', monospace);
+  font-family: var(--accent-font, Arial, monospace);
   align-self:center;
   font-size: 14px;
 }
@@ -113,7 +114,7 @@
   font-size: 14px;
 }
 
-.dialogue-window{
+.dialogue-window {
   height: 191px;
   width: 353px;
 }
@@ -125,16 +126,31 @@
   margin-bottom: 20px;
 }
 
-.dialogue-title{
+.dialogue-title {
   margin-left: -15px;
   line-height: 150%;
   font-size: 14px;
-  font-weight: 400;
+  font-variation-settings: 'wght' 400;
   text-transform: uppercase;
-  font-family: var(--accent-font, 'Courier New', monospace);
+  font-family: var(--accent-font, Arial, monospace);
   width: 234px;
 }
 
-.dialogue-button{
+.dialogue-button {
   height: 38px;
+}
+
+.label{
+  font-family: var(--accent-font, Arial, monospace);
+  position:absolute;
+  top: 26px;
+  font-size: 14px;
+  right: 26px;
+}
+
+@supports ((text-stroke: 1px white) or (-webkit-text-stroke: 1px white)) {
+  .label {
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+  }
 }
