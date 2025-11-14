@@ -114,6 +114,7 @@
   font-size: 14px;
 }
 
+/*
 .dialogue-window {
   height: 191px;
   width: 353px;
@@ -139,7 +140,7 @@
 .dialogue-button {
   height: 38px;
 }
-
+*/
 .label{
   font-family: var(--accent-font, Arial, monospace);
   position:absolute;
