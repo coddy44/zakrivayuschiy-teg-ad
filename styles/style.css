@@ -51,7 +51,7 @@
   height:33px;
 }
 
-.title{
+.title {
   padding-top:5px;
   padding-left:10px;
   font-size: 18px;
@@ -115,11 +115,11 @@
 }
 
 
-.dialogue-window {
+.dialog-window {
   height: 191px;
   width: 353px;
 }
-.dialogue__content-block {
+.dialog__content-block {
   margin-top: 20px;
   display:flex;
   height: 64px;
@@ -127,7 +127,7 @@
   margin-bottom: 20px;
 }
 
-.dialogue-title {
+.dialog-title {
   margin-left: -15px;
   line-height: 150%;
   font-size: 14px;
@@ -137,7 +137,7 @@
   width: 234px;
 }
 
-.dialogue-button {
+.dialog-button {
   height: 38px;
 }
 
