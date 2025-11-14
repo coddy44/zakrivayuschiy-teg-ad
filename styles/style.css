@@ -67,7 +67,7 @@
 }
 
 .image1 {
-    filter: sepia(80%);
+    filter: sepia(1) contrast(2) brightness(200%);
 } 
 
 .image2 {
