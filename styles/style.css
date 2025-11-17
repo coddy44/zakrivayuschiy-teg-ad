@@ -328,18 +328,18 @@
 }
 
 @media (width <= 925px) {
-  .header-title{
+  .header-title {
     font-size: 60px;
   }
-  .header-text{
+  .header-text {
     font-size: 20px;
   }
 }
 @media (width <= 855px) {
-  .header-title{
+  .header-title {
     font-size: 50px;
   }
-  .header-text{
+  .header-text {
     font-size: 16px;
   }
 }
